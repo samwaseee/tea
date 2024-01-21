@@ -13,38 +13,140 @@
         body {
             font-family: "Manrope", sans-serif;
         }
+
+        body div {
+            background-image: url('./images/bg_cup.png');
+            background-repeat: no-repeat;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <div class="hero bg-base-200">
+        <div class="hero">
             <div class="hero-content flex-col lg:flex-row">
                 <div>
-                    <h1 class="text-7xl font-extrabold">It's good
+                    <h1 class="text-4xl md:text-7xl font-extrabold">It's good
                         tea time at The Tea House</h1>
-                    <p class="py-6 text-xl">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    <p class="py-6 text-xl">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                        Buds.
                     </p>
                     <button class="btn text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore More
                         <img src="./images/arrow.png" alt="">
                     </button>
                 </div>
-                <img src="./images/banner.png" class=" rounded-lg" />
+                <img src="./images/banner.png" class="md:max-w-fit" />
             </div>
-            <div class="flex bg-white shadow-lg z-10 items-center rounded-xl p-5 -mr-80 mt-96">
+            <div class="flex bg-white shadow-lg z-10 items-center rounded-xl p-5 lg:-mr-80 mt-[550px] lg:mt-96">
                 <img src="./images/Group 5.svg" alt="" class="max-w-10">
-                <div class=""><p class="text-3xl font-extrabold text-center">5.00</p>Trust Pilot Ratings</div>
+                <div class="">
+                    <p class="text-3xl font-extrabold text-center">5.00</p>Trust Pilot Ratings
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-
+        <div class="hero min-h-screen my-24 relative mb-40">
+            <div
+                class="hero-content flex-col-reverse lg:flex-row-reverse bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-xl">
+                <div>
+                    <div class="indicator opacity-50 relative md:mx-36 -top-24 lg:top-0 max-w-[85vw]">
+                        <span class="indicator-item indicator-start">
+                            <img src="./images/client.png" class="border-solid border-4 border-white rounded-full">
+                        </span>
+                        <div class="grid max-w-[433px] rounded-xl bg-white p-12">We are providing the best and suitable
+                            home insurance services for the people who are interested to treatment
+                            <p class="mt-5 font-bold">Ilham Yuda</p>
+                            <p>Businessman</p>
+                            <div class="flex justify-end">
+                                <img src="./images/circles.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="indicator right-0 md:right-36 absolute z-10 max-w-[85vw] bottom-32 ">
+                        <span class="indicator-item indicator-start">
+                            <img src="./images/client.png" class="border-solid border-4 border-white rounded-full">
+                        </span>
+                        <div class="grid max-w-[433px] rounded-xl bg-white p-12">We are providing the best and suitable
+                            home insurance services for the people who are interested to treatment
+                            <p class="mt-5 font-bold">Ilham Yuda</p>
+                            <p>Businessman</p>
+                            <div class="flex justify-end">
+                                <img src="./images/circles.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="indicator opacity-30 relative lg:top-24 max-w-[85vw]">
+                        <span class="indicator-item indicator-start">
+                            <img src="./images/client.png" class="border-solid border-4 border-white rounded-full">
+                        </span>
+                        <div class="grid max-w-[433px] rounded-xl bg-white p-12">We are providing the best and suitable
+                            home insurance services for the people who are interested to treatment
+                            <p class="mt-5 font-bold">Ilham Yuda</p>
+                            <p>Businessman</p>
+                            <div class="flex justify-end">
+                                <img src="./images/circles.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-40 md:mx-16 text-white max-w-[85vw]">
+                    <h1 class="text-5xl font-bold">Meet Our Super Clients</h1>
+                    <p class="py-6">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humour, or randomised words which don't look
+                        even slightly believable. </p>
+                    <button class="btn bg-white"><span class="bg-clip-text">Show All</span></button>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <header class="footer-title">Newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+            <nav class="gap-4 flex md:place-self-center md:justify-center">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+                </a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+              </nav>
+          </fieldset>
+        </form>
+      </footer>
+      <footer class="footer items-center p-4 bg-neutral text-neutral-content">
+        <aside class="items-center grid-flow-col"> 
+          <p>Copyright © 2024 - All right reserved</p>
+        </aside> 
+      </footer>
 </body>
 
 </html>
